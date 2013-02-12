@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image: url(images/bg.png);
+	background-repeat: repeat;		
+}
+
+.pageContainer
+{
+	width:990px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pageContent
+{
+	background-image: 	url(images/tree.png);
+	background-repeat: no-repeat;
+	width:990px;
+	height:2747px;
+	margin-top: 180px;
+	position:relative;
+}
+
+.pageFooter
+{
+	background: url(images/tree.png) repeat-x -899px -2718px;
+	height: 29px;
+	width: 100%;
+	margin-top: -29px;
+	position: relative;
+	z-index: 9999;
+}
+
+.avatarFemaleContainer
+{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 533px;
+	top: -122px;
+	background-image: url(images/avatar-female.png);
+}
+
+.avatarMaleContainer
+{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 320px;
+	top: 202px;
+	background-image: url(images/avatar-male.png);
+}
